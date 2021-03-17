@@ -24,13 +24,6 @@
   </div>
 </template>
 
-<script>
-import Header from '~/components/Header.vue'
-export default {
-  components: { Header },
-}
-</script>
-
 <style lang="scss">
 /* Sample `apply` at-rules with Tailwind CSS
 .container {
