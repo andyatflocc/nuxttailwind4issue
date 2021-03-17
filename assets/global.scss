@@ -1,4 +1,6 @@
 :root {
-  --spacing: 20px;
-  --bigspacing: calc(var(--spacing) * 1.5)
+  --spacing-site-multiplier: 1.0;
+  --spacing-breakpoint-multiplier: 2.0;
+
+  --spacingslice: calc( var(--spacing-site-multiplier) * var(--spacing-breakpoint-multiplier) * 80px);
 }
